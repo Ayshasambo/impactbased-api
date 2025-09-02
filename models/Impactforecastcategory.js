@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
 const Impactforecastcategory = sequelize.define('impact_forecast_category', {
-  id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+  //id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
   name: { type: DataTypes.STRING(255), allowNull: true },
   code: { type: DataTypes.STRING(55), allowNull: true },
   dedicated_for: { type: DataTypes.STRING(155), allowNull: true },
